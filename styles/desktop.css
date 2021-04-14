@@ -2,10 +2,10 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1050px;
 }
 
-/* header */
+/* nav-section */
 
 .header-nav {
     background-color: inherit;
@@ -32,14 +32,32 @@
     background: var(--color-delta);
 }
 
+.header-nav__btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.header-nav__menu-li-a {
+    padding: 1rem;
+}
+
+.header-nav__menu-li-a:hover {
+    border-radius: 10px;
+    padding: 1rem;
+    background: var(--color-alfa);
+    color: var(--color-delta);
+    transition: all 0.5s ease-in-out;
+}
+
 .header-nav__checker-label {
     display: none;
 }
 
+/* header-section */
+
 .header {
     background-size: cover;
 }
-
 
 .header-sec {
     width: 100%;
@@ -62,8 +80,8 @@
 /* features-section */
 
 .features {
-    height: 100vh;
-    margin-top: 10rem;
+    height: 120vh;
+    margin-top: 11rem;
 }
 
 .features__header-title {
@@ -78,7 +96,6 @@
 .features-content__card-box-img3 {
     width: 12rem;
 }
-
 
 .features-dscr__header-title {
     font-size: var(--font-m);
@@ -107,7 +124,7 @@
     font-size: var(--font-s);
 }
 
-/* price section */
+/* price-section */
 
 .price {
     justify-content: space-evenly;
@@ -183,7 +200,7 @@
     padding: 1.5rem;
 }
 
-/* advertising */
+/* advertising-section */
 
 .advertising {
     height: 50vh;
@@ -203,12 +220,13 @@
     padding: 1rem;
 }
 
-/* main-footer section */
+/* footer-main-section */
 
 .footer-box {
     height: 40vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     padding: 5rem;
 }
 

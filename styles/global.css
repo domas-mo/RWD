@@ -76,7 +76,3 @@ li {
     font-size: var(--font-xxs);
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 800px;
-}
