@@ -1,3 +1,80 @@
+/* global */
+
+:root {
+
+    /* font-color */
+    --color-alfa: rgb(255, 255, 255);
+    --color-beta: rgb(22, 22, 22);
+
+    /* body-color */
+    --color-omega: rgb(44, 44, 44);
+    --color-delta: rgb(39, 149, 249);
+    --color-gamma: rgb(1, 129, 245);
+    --color-sigma: rgb(93, 178, 255);
+    --color-phi: rgb(0, 0, 0);
+    --color-lambda: rgb(55, 235, 237);
+
+    --color-eta: rgb(233, 244, 254);
+    --color-eta-a: rgb(47, 135, 245);
+    --color-zeta: rgb(254, 244, 238);
+    --color-zeta-a: rgb(253, 181, 123);
+    --color-jota: rgb(232, 252, 241);
+    --color-jota-a: rgb(22, 213, 106);
+
+    /* font-size */
+    --font-s--font-xl: 5rem;
+    --font-l: 4.5rem;
+    --font-m: 3rem;
+    --font-s: 2rem;
+    --font-xs: 1.9rem;
+    --font-xxs: 1.2rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: var(--color-alfa);
+    font-weight: 100;
+}
+
+h2, h3 {
+    color: var(--color-beta);
+    font-weight: 100;
+}
+
+p {
+    color: var(--color-alfa);
+    font-weight: 100;
+}
+
+button {
+    color: var(--color-alfa);
+    border: none;
+}
+
+label {
+    font-size: var(--font-m);
+    color: var(--color-alfa);
+}
+
+a {
+    font-size: var(--font-s);
+    text-decoration: none;
+    color: var(--color-alfa);
+    font-weight: 100;
+}
+
+b {
+    color: rgb(238, 218, 105);
+    font-size: var(--font-m);
+}
+
+li {
+    font-size: var(--font-xxs);
+}
+
+.container {
+    margin: 0 auto;
 }

@@ -8,6 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/global.css">
@@ -21,10 +22,15 @@
     
     <header class="header">
 
-        <nav class="header-nav container">
+        <nav class="header-nav">
             <span class="header-nav__logo">
                 <img class="header-nav__logo-img" src="./images/logo.png" alt="logo-img">
             </span>
+
+            <label class="header-nav__checker-label" for="header-nav__checker">&#9776</label>
+            <input type="checkbox" id="header-nav__checker">  
+            
+
             <ul class="header-nav__menu">
                 <li class="header-nav__menu-li"><a href="#">Home</a></li>
                 <li class="header-nav__menu-li"><a href="#">Features</a></li>
@@ -34,6 +40,7 @@
                 <li class="header-nav__menu-li"><a href="#">Contact</a></li>
             </ul>
             <button class="header-nav__btn">Download</button>
+            
         </nav>
 
         <section class="header-sec container">
@@ -66,7 +73,7 @@
             <article class="features-content container">
                 <ul class="features-content__card">
                     <li class="features-content__card-box">
-                        <img class="features-content__card-box-img" src="./images/icons/2.svg" alt="">
+                            <img class="features-content__card-box-img1" src="./images/icons/2.svg" alt="">
                     </li>
                     <li class="features-content__card-descr">Manage team in<br>
                         One Place
@@ -74,7 +81,7 @@
                 </ul>
                 <ul class="features-content__card">
                     <li class="features-content__card-box">
-                        <img class="features-content__card-box-img" src="./images/icons/1.svg" alt="">
+                        <img class="features-content__card-box-img2" src="./images/icons/1.svg" alt="">
                     </li>
                     <li class="features-content__card-descr">All-powerful Pointing<br>
                         has no control
@@ -82,7 +89,7 @@
                 </ul>
                 <ul class="features-content__card">
                     <li class="features-content__card-box">
-                        <img class="features-content__card-box-img" src="./images/icons/3.svg" alt="">
+                        <img class="features-content__card-box-img3" src="./images/icons/3.svg" alt="">
                     </li>
                     <li class="features-content__card-descr">Estabilish a solid<br>
                         online presence
@@ -119,6 +126,9 @@
                 <p class="review__header-para">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Mollitia qui hic, voluptatibus officiis aliquam nihil tempore ipsum in quidem sunt?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sint!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, qui?<br>
+                    <b>&#9733&#9733&#9733&#9733&#9733</b> - Dominik
                 </p>
             </header>
         </section>
@@ -134,9 +144,9 @@
             </header>
 
             <article class="price__card container">
-                <div class="price__card-top-bar">
+                <div class="price__card-top-bar1">
                     <h3 class="price__card-top-bar-title">Basic</h3>
-                    <p class="price__card-top-bar-para">
+                    <p class="price__card-top-bar-para1">
                         100&#x24                
                     </p>
                 </div>
@@ -146,9 +156,10 @@
                     <li class="price__card-content-li">Webmail Support</li>
                     <li class="price__card-content-li">100GB Cloud Storage</li>
                 </ul>
-                <div class="price__card-top-bar">
+                <button class="price__card-content-btn"> Get Now</button>
+                <div class="price__card-top-bar2">
                     <h3 class="price__card-top-bar-title">Team</h3>
-                    <p class="price__card-top-bar-para">
+                    <p class="price__card-top-bar-para2">
                         150&#x24                
                     </p>
                 </div>
@@ -159,9 +170,10 @@
                     <li class="price__card-content-li">100GB Cloud Storage</li>
                     <li class="price__card-content-li"> Unlimited Users Limit</li>
                 </ul>
-                <div class="price__card-top-bar">
+                <button class="price__card-content-btn"> Get Now</button>
+                <div class="price__card-top-bar3">
                     <h3 class="price__card-top-bar-title">Business</h3>
-                    <p class="price__card-top-bar-para">
+                    <p class="price__card-top-bar-para3">
                         150&#x24                
                     </p>
                 </div>
@@ -171,6 +183,7 @@
                     <li class="price__card-content-li">Webmail Support</li>
                     <li class="price__card-content-li">100GB Cloud Storage</li>
                 </ul>
+                <button class="price__card-content-btn"> Get Now</button>
             </article>
         </section>
 
@@ -199,43 +212,43 @@
                 creeping gathered divide
             </p>
             <ul class="footer-content__box-social">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
             </ul>
         </section>
 
-        <section class="footer-link container">
+        <section class="footer-link">
             <div class="footer-link-box">
                 <h3 class="footer-link-box__title">Services</h3>
                 <ul class="footer-link-box__list">
-                    <li class="footer-link-box__list-li"><a href="">Team management</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Collaboration</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Todo</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Events</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Team management</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Collaboration</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Todo</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Events</a></li>
                 </ul>
             </div>
             <div class="footer-link-box">
                 <h3 class="footer-link-box__title">Useful Links</h3>
                 <ul class="footer-link-box__list">
-                    <li class="footer-link-box__list-li"><a href="">Pricing</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Features</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Blog</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Contact</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Pricing</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Features</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Blog</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Contact</a></li>
                 </ul>
             </div>    
             <div class="footer-link-box">
                 <h3 class="footer-link-box__title">Downloads</h3>
                 <ul class="footer-link-box__list">
-                    <li class="footer-link-box__list-li"><a href="">Download from Apple Store</a></li>
-                    <li class="footer-link-box__list-li"><a href="">Download from Paly Store</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Download from Apple Store</a></li>
+                    <li class="footer-link-box__list-li"><a class="footer-link-box__list-li-a" href="">Download from Paly Store</a></li>
                 </ul>
             </div>
         </section>
 
-        <footer class="footer-footer container">
+        <footer class="footer-footer">
             <p class="footer-footer__para">
-                Copyright &copy;2021 All rights reserved &VerticalLine; This template is made with &#9825; by <a href="https://colorlib.com">Colorlib</a>
+                Copyright &copy;2021 All rights reserved &VerticalLine; This template is made with &#9825; by <a class="footer-footer__para-a" href="https://colorlib.com">Colorlib</a>
             </p>
         </footer>
     </footer>
