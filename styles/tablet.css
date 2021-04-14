@@ -1,0 +1,154 @@
+/* tablet */
+
+/* header section */
+
+.header-sec {
+    width: 80%;
+    height: 100%;
+    padding: 10rem 0;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-sec__content-title {
+    font-size: var(--font-l);
+}
+
+.header-sec__content-para {
+    font-size: var(--font-s);
+}
+
+.header-sec__content-btn {
+    padding: 2rem;
+    font-size: var(--font-s)
+}
+
+/* features-section */
+
+.features__header-title {
+    font-size: var(--font-m);
+    padding: 5rem 0;
+}
+
+.features-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.features-content__card-descr {
+    font-size: var(--font-xs);
+    text-align: center;
+}
+
+.features-content__card-box-img1,.features-content__card-box-img2,
+.features-content__card-box-img3 {
+    width: 10rem;
+}
+
+.features-dscr {
+    padding: 15rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.features-dscr__header-title {
+    font-size: var(--font-m);
+}
+
+.features-dscr__header-para {
+    font-size: var(--font-xs);
+}
+
+.features-dscr__header-btn {
+    padding: 2rem;
+    font-size: var(--font-s)
+}
+
+/* review-section */
+
+.review {
+    height: 80vh;
+}
+
+.review__header-title {
+    font-size: var(--font-l);
+}
+
+.review__header-para {
+    font-size: var(--font-s);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.review__header-para-star {
+    font-size: var(--font-s);
+    padding-top: 2rem;
+}
+
+/* price section */
+
+.price {
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.price__header-title {
+    font-size: var(--font-m);
+}
+
+.price__header-para {
+    font-size: var(--font-xs);
+    padding: 2rem;
+}
+
+.price__card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__card-box {
+    margin: 1rem;
+}
+
+/* advertising */
+
+.advertising {
+    height: 60vh;
+    justify-content: space-evenly;
+}
+
+.advertising__header {
+    font-size: var(--font-xl);
+}
+
+/* main-footer section */
+
+.footer-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.footer-content__box-social {
+    width: 35%;
+}
+
+.footer-link-box__title {
+    font-size: var(--font-m);
+    font-weight: 100;
+}
+
+/* footer-section */
+
+.footer-footer {
+    padding: 3rem;
+}

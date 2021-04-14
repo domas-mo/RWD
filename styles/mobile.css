@@ -5,6 +5,7 @@
     height: 100%;
     background-image: url(../images/banner/banner.png);
     background-repeat: no-repeat;
+    background-position-y: 100%;
 
     display: flex;
     flex-direction: column;
@@ -131,15 +132,9 @@
     margin: 2rem 0;
 }
 
-.features-content__card-box1 {
-    border-radius: 10px;
-    padding: 2rem;
-  
-}
-
 .features-content__card-box-img1,.features-content__card-box-img2,
 .features-content__card-box-img3 {
-    width: 50%;
+    width: 9rem;
     border-radius: 10px;
     padding: 2rem;
 
@@ -211,6 +206,12 @@
     padding: 0 2rem;
 }
 
+.review__header-para-star {
+    text-align: center;
+    font-size: var(--font-xxs);
+    padding-top: 1rem;
+}
+
 /* price section */
 
 .price {
@@ -220,22 +221,38 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    margin: 2rem auto;
-    padding: 1rem 2rem;
+    padding: 2rem 0;
+    background: var(--color-my);
+}
+
+.price__header {
+  text-align: center;  
 }
 
 .price__header-title {
-    text-align: center;
     font-size: var(--font-m);
     font-weight: 100;
 }
 
+.price__header-para {
+    font-size: var(--font-xxs);
+    color: var(--color-beta);
+    padding: 1rem;
+}
+
 .price__card {
+    padding: 2rem 0;
+}
+
+.price__card-box {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 30rem;
+    background: var(--color-alfa);
+    margin-top: 1rem;
+    box-shadow: 0px 0px 50px -1px #777777;
 }
 
 .price__card-top-bar1, .price__card-top-bar2, 
@@ -322,23 +339,23 @@
     color: var(--color-alfa);
 }
 
-.advertising__box-img {
-    padding: 0.4rem;
-}
-
 /* footer section */
 
 footer {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     background: var(--color-omega);
 }
 
+.footer-box {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
 .footer-content {
-    margin: 2rem 1rem;
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -347,15 +364,15 @@ footer {
 
 .footer-content__box-para {
     font-size: var(--font-xs);
-    padding: 1rem 0;
+    padding: 2rem 0;
+    color: var(--color-alfa);
 }
 
 .footer-content__box-social {
-    width: 40%;
+    width: 15rem;
     display: flex;
     justify-content: space-between;
     color: var(--color-alfa);
-    
 }
 
 .fab {
@@ -364,11 +381,6 @@ footer {
    background: var(--color-beta);
    padding: 1rem;
    border-radius: 100%;
-}
-
-.footer-link {
-    margin-left: 1rem;
-    padding-bottom: 2rem;
 }
 
 .footer-link-box__title {

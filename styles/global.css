@@ -13,6 +13,7 @@
     --color-sigma: rgb(93, 178, 255);
     --color-phi: rgb(0, 0, 0);
     --color-lambda: rgb(55, 235, 237);
+    --color-my: rgb(250, 246, 246);
 
     --color-eta: rgb(233, 244, 254);
     --color-eta-a: rgb(47, 135, 245);
@@ -22,7 +23,7 @@
     --color-jota-a: rgb(22, 213, 106);
 
     /* font-size */
-    --font-s--font-xl: 5rem;
+    --font-xl: 6rem;
     --font-l: 4.5rem;
     --font-m: 3rem;
     --font-s: 2rem;
@@ -77,4 +78,5 @@ li {
 
 .container {
     margin: 0 auto;
+    max-width: 800px;
 }
