@@ -63,5 +63,5 @@ Write sth nice ;) Find me on...
 
 ## 👏 Thanks / Special thanks / Credits
 
-To my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
-To [Colorlib](https://colorlib.com/wp/) for free templates.
+- To my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
+- To [Colorlib](https://colorlib.com/wp/) for free templates.
