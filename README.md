@@ -50,7 +50,7 @@ The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
 </span>
 ```
 
-4. In project I use Flexbox and Grid. They are perfect way to lay out, align and distribute space among items in a container, even when their size is unknown or dynamic and work together quite well.
+4. In project I use Flexbox and Grid. They are perfect way to lay out, align and distribute space among items in a container, even when their size is unknown or dynamic. They work together quite well.
 
 &nbsp;
 
