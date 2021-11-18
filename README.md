@@ -5,7 +5,7 @@
 
 RWD Website is a responsive landing page modeled after [Colorlib free Applab template](https://colorlib.com/wp/template/applab/). 
 
-See the live version of [the RWD Website](https://domas-mo.github.io/task-html-and-css-rwd/)
+See the live version of [the RWD Website](https://domas-mo.github.io/RWD/)
 
 **Main features**:
 - HTML5
